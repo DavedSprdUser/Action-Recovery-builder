@@ -10,19 +10,19 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'twrp-5.1'
+        default: 'twrp-10.0'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/DavedSprdUser/android_device_lenovo_scx35_sp7731gea_taichi'
+        default: 'https://code.input.sh/DumprX/infinix/Infinix-X682B/-/tree/sys_tssi_64_infinix-user-10-QP1A.190711.020-87334-release-keys/twrp-device-tree/infinix/Infinix-X682B'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'A1000m-5.1-tree'
+        default: 'sys_tssi_64_infinix-user-10-QP1A.190711.020-87334-release-keys'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/lenovo/scx35_sp7731gea_taichi'
+        default: 'device/infinix/Infinix-X682B'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'scx35_sp7731gea_taichi'
+        default: 'Infinix-X682B'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_scx35_sp7731gea_taichi'
+        default: 'omni_Infinix-X682B'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true

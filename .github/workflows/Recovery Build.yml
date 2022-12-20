@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://code.input.sh/DumprX/infinix/Infinix-X682B/-/tree/sys_tssi_64_infinix-user-10-QP1A.190711.020-87334-release-keys/twrp-device-tree/infinix/Infinix-X682B'
+        default: 'https://github.com/twrpdtgen/android_device_infinix_Infinix-X682B/tree/vnd_x682b_h694-user-10-QP1A.190711.020-87335-release-keys#android-device-tree-for-infinix-infinix-x682b-infinix-x682b'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'sys_tssi_64_infinix-user-10-QP1A.190711.020-87334-release-keys'
+        default: 'vnd_x682b_h694-user-10-QP1A.190711.020-87335-release-keys'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
